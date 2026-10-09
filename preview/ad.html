@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIMC CosMedic — Ad Preview</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F4EFE6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body data-page="ad">
+  <a class="skip" href="#stage">Skip to the ad</a>
+
+  <header class="masthead masthead--compact">
+    <div class="wrap wrap--wide masthead__bar">
+      <a class="brand" href="../index.html" aria-label="BIMC CosMedic, back to all ads">
+        <img id="logo" alt="BIMC CosMedic" height="32">
+        <span class="brand__fallback" id="logo-fallback" hidden></span>
+      </a>
+      <nav class="masthead__nav" aria-label="Page">
+        <a class="textlink mono" id="back" href="../index.html">All ads</a>
+        <p class="mono masthead__date">Updated <time id="updated"></time></p>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap wrap--wide viewer" id="viewer">
+    <section class="backdrop" aria-label="Ad preview">
+      <nav class="pager" aria-label="Browse ads">
+        <a class="pager__btn" id="prev" href="#" rel="prev"></a>
+        <p class="mono pager__count" id="counter" aria-live="polite"></p>
+        <a class="pager__btn pager__btn--next" id="next" href="#" rel="next"></a>
+      </nav>
+      <div class="backdrop__stage" id="stage" tabindex="-1"></div>
+      <p class="mono scaled-note" id="note" hidden></p>
+      <p class="mono backdrop__hint">Use the left and right arrow keys to move between ads</p>
+    </section>
+
+    <aside class="panel" id="panel" aria-label="Ad details"></aside>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap wrap--wide footer__inner">
+      <p>Click-through URL is supplied by The Trade Desk via the clickTAG parameter.</p>
+      <p>&copy; 2026 BIMC CosMedic</p>
+    </div>
+  </footer>
+
+  <script src="manifest.js"></script>
+  <script src="preview.js"></script>
+</body>
+</html>

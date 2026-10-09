@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIMC CosMedic — Generic Display Ads Preview</title>
+  <meta name="description" content="Live preview of the BIMC CosMedic HTML5 display ads at exact pixel size.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F4EFE6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="preview/preview.css">
+</head>
+<body data-page="overview">
+  <a class="skip" href="#ads">Skip to the ads</a>
+
+  <header class="masthead">
+    <div class="wrap masthead__bar">
+      <a class="brand" href="./" aria-label="BIMC CosMedic">
+        <img id="logo" alt="BIMC CosMedic" height="36">
+        <span class="brand__fallback" id="logo-fallback" hidden></span>
+      </a>
+      <p class="mono masthead__date">Updated <time id="updated"></time></p>
+    </div>
+
+    <div class="wrap hero">
+      <p class="eyebrow" id="eyebrow"></p>
+      <h1 class="hero__title" id="title">Display Ads</h1>
+      <p class="hero__lede">Every unit below is the live HTML5 ad, shown at its exact pixel size. Replay an animation, check the static backup, open a unit on its own, or download the package.</p>
+      <div class="changes" id="changes"></div>
+      <dl class="stats" id="stats"></dl>
+      <div class="downloads" id="downloads"></div>
+    </div>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar__inner">
+      <div class="toolbar__group">
+        <span class="mono toolbar__label" id="vlabel">Version</span>
+        <div class="chips" id="vfilter" role="group" aria-labelledby="vlabel"></div>
+      </div>
+      <div class="toolbar__group">
+        <span class="mono toolbar__label" id="slabel">Size</span>
+        <div class="chips" id="sfilter" role="group" aria-labelledby="slabel"></div>
+      </div>
+      <div class="toolbar__end">
+        <span class="mono toolbar__count" id="count" aria-live="polite"></span>
+        <button type="button" class="btn btn--solid" id="replay-all"></button>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap" id="ads" tabindex="-1">
+    <noscript><p class="notice">This preview needs JavaScript to display the ads.</p></noscript>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>Click-through URL is supplied by The Trade Desk via the clickTAG parameter.</p>
+      <p>&copy; 2026 BIMC CosMedic</p>
+    </div>
+  </footer>
+
+  <script src="preview/manifest.js"></script>
+  <script src="preview/preview.js"></script>
+</body>
+</html>
