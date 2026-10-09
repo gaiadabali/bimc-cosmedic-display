@@ -261,7 +261,7 @@
 
     var ch = $('changes');
     if (ch && C.changes && C.changes.length) {
-      ch.appendChild(h('p', { class: 'mono changes__label', text: 'What changed in v2' }));
+      ch.appendChild(h('p', { class: 'mono changes__label', text: 'What changed' }));
       var ol = h('ol', { class: 'changes__list' });
       C.changes.forEach(function (c) { ol.appendChild(h('li', { text: c })); });
       ch.appendChild(ol);
