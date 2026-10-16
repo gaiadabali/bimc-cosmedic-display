@@ -4,37 +4,36 @@ window.CAMPAIGN = {
   "campaign": "Generic Display Ads",
   "platform": "The Trade Desk · HTML5",
   "updated": "2026-10-16",
-  "revision": "v8 · revision brief 1 Oct, review 9 Oct, update 16 Oct 2026",
+  "revision": "v9 · revision brief 1 Oct, review 9 Oct, update 16 Oct 2026",
   "clickTag": "clickTAG",
   "logo": "preview/logo.svg",
   "packages": [
     {
       "label": "Statics for News Corp, all frames",
-      "path": "deliverables/BIMC-AU-Display-Generic-v8-STATICS.zip",
-      "kb": 847.1
+      "path": "deliverables/BIMC-AU-Display-Generic-v9-STATICS.zip",
+      "kb": 770.1
     },
     {
       "label": "Generic V1 HTML5 · all sizes",
-      "path": "deliverables/BIMC-AU-Display-GenericV1-v8-HTML5.zip",
-      "kb": 414.5
-    },
-    {
-      "label": "Generic V1 · 160×600 option B HTML5",
-      "path": "deliverables/BIMC-AU-Display-GenericV1B-v8-HTML5.zip",
-      "kb": 85.0
+      "path": "deliverables/BIMC-AU-Display-GenericV1-v9-HTML5.zip",
+      "kb": 414.3
     },
     {
       "label": "Generic V2 HTML5 · all sizes",
-      "path": "deliverables/BIMC-AU-Display-GenericV2-v8-HTML5.zip",
-      "kb": 426.0
+      "path": "deliverables/BIMC-AU-Display-GenericV2-v9-HTML5.zip",
+      "kb": 426.1
     },
     {
       "label": "Everything",
-      "path": "deliverables/BIMC-AU-Display-Generic-v8-ALL.zip",
-      "kb": 1812.9
+      "path": "deliverables/BIMC-AU-Display-Generic-v9-ALL.zip",
+      "kb": 1645.0
     }
   ],
   "changes": [
+    "v9 · No white anywhere in the ads: the background behind the photo and copy is a gradient from dark beige to light beige, and each photo fades into it.",
+    "v9 · 320×50: headline and button are centred in their panel; the button is narrower.",
+    "v9 · Generic V1 160×600 option B removed; the gliding version (every frame) is the one.",
+    "v9 · Preview page background is white, so the ads' beige reads true.",
     "v8 · Generic V1 160×600 now comes in two options. Option A (in Generic V1): frame 3 also glides, from the patient at the desk to the receptionist, so every frame shows everyone. Option B (new): frame 2 uses the new tall bedside photo, with the doctor and the patient together in one still.",
     "v7 · 160×600, Generic V1: frame 1 glides left to right across the whole team, and frame 2 glides from the doctor to the patient, so both people are seen.",
     "v6 · Generic V1 frame 2: new photo of the doctor going over the follow-up with the patient at her bedside, framed per size so faces stay whole (160×600 is too narrow for both people, so it shows the doctor with the tablet).",
@@ -70,14 +69,14 @@ window.CAMPAIGN = {
           "size": "300x600",
           "width": 300,
           "height": 600,
-          "name": "BIMC-AU-Display-GenericV1-300x600-v8",
-          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8/index.html",
-          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8.zip",
-          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV1-300x600-v9",
+          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9/index.html",
+          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9.zip",
+          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8-F1.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8-F2.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v8-F3.jpg"
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9-F1.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9-F2.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x600-v9-F3.jpg"
           ],
           "initialKB": 146.3,
           "totalKB": 146.3,
@@ -91,19 +90,19 @@ window.CAMPAIGN = {
           "size": "160x600",
           "width": 160,
           "height": 600,
-          "name": "BIMC-AU-Display-GenericV1-160x600-v8",
-          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8/index.html",
-          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8.zip",
-          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV1-160x600-v9",
+          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9/index.html",
+          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9.zip",
+          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8-F1.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8-F2.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v8-F3.jpg"
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9-F1.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9-F2.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-160x600-v9-F3.jpg"
           ],
-          "initialKB": 144.2,
-          "totalKB": 144.2,
-          "zipKB": 102.1,
-          "htmlKB": 144.2,
+          "initialKB": 144.6,
+          "totalKB": 144.6,
+          "zipKB": 102.5,
+          "htmlKB": 144.6,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -112,19 +111,19 @@ window.CAMPAIGN = {
           "size": "300x250",
           "width": 300,
           "height": 250,
-          "name": "BIMC-AU-Display-GenericV1-300x250-v8",
-          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8/index.html",
-          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8.zip",
-          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV1-300x250-v9",
+          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9/index.html",
+          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9.zip",
+          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8-F1.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8-F2.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v8-F3.jpg"
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9-F1.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9-F2.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v9-F3.jpg"
           ],
-          "initialKB": 78.1,
-          "totalKB": 78.1,
-          "zipKB": 51.9,
-          "htmlKB": 78.1,
+          "initialKB": 77.9,
+          "totalKB": 77.9,
+          "zipKB": 51.8,
+          "htmlKB": 77.9,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -133,19 +132,19 @@ window.CAMPAIGN = {
           "size": "728x90",
           "width": 728,
           "height": 90,
-          "name": "BIMC-AU-Display-GenericV1-728x90-v8",
-          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8/index.html",
-          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8.zip",
-          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV1-728x90-v9",
+          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9/index.html",
+          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9.zip",
+          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8-F1.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8-F2.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v8-F3.jpg"
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9-F1.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9-F2.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v9-F3.jpg"
           ],
-          "initialKB": 71.2,
-          "totalKB": 71.2,
-          "zipKB": 47.1,
-          "htmlKB": 71.2,
+          "initialKB": 71.0,
+          "totalKB": 71.0,
+          "zipKB": 46.8,
+          "htmlKB": 71.0,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -154,53 +153,19 @@ window.CAMPAIGN = {
           "size": "320x50",
           "width": 320,
           "height": 50,
-          "name": "BIMC-AU-Display-GenericV1-320x50-v8",
-          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8/index.html",
-          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8.zip",
-          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV1-320x50-v9",
+          "html": "banners/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9/index.html",
+          "zip": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9.zip",
+          "backup": "deliverables/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8-F1.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8-F2.jpg",
-            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v8-F3.jpg"
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9-F1.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9-F2.jpg",
+            "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v9-F3.jpg"
           ],
-          "initialKB": 31.4,
-          "totalKB": 31.4,
+          "initialKB": 31.5,
+          "totalKB": 31.5,
           "zipKB": 16.9,
-          "htmlKB": 31.4,
-          "files": 1,
-          "durationS": 13.8,
-          "loops": 2
-        }
-      ]
-    },
-    {
-      "id": "GEN-V1-B",
-      "label": "Generic V1 · 160×600 option B",
-      "headline": "Care through every stage",
-      "cta": "Learn more",
-      "frames": [
-        "Consultation · Planning · Procedure",
-        "Recovery · Follow-up",
-        "Features and inclusions vary by procedure and package."
-      ],
-      "ads": [
-        {
-          "size": "160x600",
-          "width": 160,
-          "height": 600,
-          "name": "BIMC-AU-Display-GenericV1B-160x600-v8",
-          "html": "banners/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8/index.html",
-          "zip": "deliverables/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8.zip",
-          "backup": "deliverables/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8.jpg",
-          "statics": [
-            "deliverables/statics/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8-F1.jpg",
-            "deliverables/statics/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8-F2.jpg",
-            "deliverables/statics/GEN-V1-B/BIMC-AU-Display-GenericV1B-160x600-v8-F3.jpg"
-          ],
-          "initialKB": 96.8,
-          "totalKB": 96.8,
-          "zipKB": 66.2,
-          "htmlKB": 96.8,
+          "htmlKB": 31.5,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -222,19 +187,19 @@ window.CAMPAIGN = {
           "size": "300x600",
           "width": 300,
           "height": 600,
-          "name": "BIMC-AU-Display-GenericV2-300x600-v8",
-          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8/index.html",
-          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8.zip",
-          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV2-300x600-v9",
+          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9/index.html",
+          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9.zip",
+          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8-F1.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8-F2.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v8-F3.jpg"
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9-F1.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9-F2.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x600-v9-F3.jpg"
           ],
-          "initialKB": 147.6,
-          "totalKB": 147.6,
-          "zipKB": 104.9,
-          "htmlKB": 147.6,
+          "initialKB": 147.8,
+          "totalKB": 147.8,
+          "zipKB": 105.1,
+          "htmlKB": 147.8,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -243,19 +208,19 @@ window.CAMPAIGN = {
           "size": "160x600",
           "width": 160,
           "height": 600,
-          "name": "BIMC-AU-Display-GenericV2-160x600-v8",
-          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8/index.html",
-          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8.zip",
-          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV2-160x600-v9",
+          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9/index.html",
+          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9.zip",
+          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8-F1.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8-F2.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v8-F3.jpg"
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9-F1.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9-F2.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-160x600-v9-F3.jpg"
           ],
-          "initialKB": 135.8,
-          "totalKB": 135.8,
-          "zipKB": 96.0,
-          "htmlKB": 135.8,
+          "initialKB": 136.1,
+          "totalKB": 136.1,
+          "zipKB": 96.3,
+          "htmlKB": 136.1,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -264,19 +229,19 @@ window.CAMPAIGN = {
           "size": "300x250",
           "width": 300,
           "height": 250,
-          "name": "BIMC-AU-Display-GenericV2-300x250-v8",
-          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8/index.html",
-          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8.zip",
-          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV2-300x250-v9",
+          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9/index.html",
+          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9.zip",
+          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8-F1.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8-F2.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v8-F3.jpg"
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9-F1.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9-F2.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-300x250-v9-F3.jpg"
           ],
-          "initialKB": 100.3,
-          "totalKB": 100.3,
-          "zipKB": 69.1,
-          "htmlKB": 100.3,
+          "initialKB": 100.1,
+          "totalKB": 100.1,
+          "zipKB": 69.0,
+          "htmlKB": 100.1,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -285,19 +250,19 @@ window.CAMPAIGN = {
           "size": "728x90",
           "width": 728,
           "height": 90,
-          "name": "BIMC-AU-Display-GenericV2-728x90-v8",
-          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8/index.html",
-          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8.zip",
-          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV2-728x90-v9",
+          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9/index.html",
+          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9.zip",
+          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8-F1.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8-F2.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v8-F3.jpg"
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9-F1.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9-F2.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v9-F3.jpg"
           ],
-          "initialKB": 82.0,
-          "totalKB": 82.0,
-          "zipKB": 55.2,
-          "htmlKB": 82.0,
+          "initialKB": 81.9,
+          "totalKB": 81.9,
+          "zipKB": 55.1,
+          "htmlKB": 81.9,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -306,19 +271,19 @@ window.CAMPAIGN = {
           "size": "320x50",
           "width": 320,
           "height": 50,
-          "name": "BIMC-AU-Display-GenericV2-320x50-v8",
-          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8/index.html",
-          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8.zip",
-          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8.jpg",
+          "name": "BIMC-AU-Display-GenericV2-320x50-v9",
+          "html": "banners/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9/index.html",
+          "zip": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9.zip",
+          "backup": "deliverables/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9.jpg",
           "statics": [
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8-F1.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8-F2.jpg",
-            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v8-F3.jpg"
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9-F1.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9-F2.jpg",
+            "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-320x50-v9-F3.jpg"
           ],
-          "initialKB": 32.6,
-          "totalKB": 32.6,
+          "initialKB": 32.7,
+          "totalKB": 32.7,
           "zipKB": 17.9,
-          "htmlKB": 32.6,
+          "htmlKB": 32.7,
           "files": 1,
           "durationS": 13.8,
           "loops": 2

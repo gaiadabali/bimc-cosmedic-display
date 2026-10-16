@@ -11,7 +11,8 @@
   --hairline: rgba(31, 27, 22, 0.12);
   --hairline-strong: rgba(31, 27, 22, 0.28);
   --dim-ink: rgba(31, 27, 22, 0.42);     /* dimension lines */
-  --panel: #EDE5D6;                      /* presentation board surface (light-beige + a touch of dark-beige) */
+  --page: #FFFFFF;                       /* white page and boards, so nothing competes with the ads' beige */
+  --panel: #FFFFFF;                      /* presentation board surface */
   --paper: #F4EFE6;                      /* the ads' own cream: nothing white shows while an ad loads */
 
   --font-display: 'Playfair Display', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
@@ -34,7 +35,7 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: var(--light-beige);
+  background: var(--page);
   color: var(--black);
   font-family: var(--font-display);
   font-size: 17px;
@@ -139,7 +140,7 @@ em { font-style: italic; color: var(--accent); font-weight: 400; }
 
 .toolbar {
   position: sticky; top: 0; z-index: 20;
-  background: var(--light-beige);
+  background: var(--page);
   border-bottom: 1px solid var(--hairline);
 }
 .toolbar__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-top: 14px; padding-bottom: 14px; }
@@ -202,6 +203,7 @@ em { font-style: italic; color: var(--accent); font-weight: 400; }
 /* The presentation board: tall units side by side, banner units stacked below. */
 .panel-board {
   background: var(--panel);
+  border: 1px solid var(--hairline);
   border-radius: var(--radius);
   padding: clamp(28px, 3.4vw, 48px);
   display: flex; flex-direction: column; gap: clamp(40px, 5vw, 64px);
