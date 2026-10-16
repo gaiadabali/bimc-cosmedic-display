@@ -12,7 +12,7 @@
   --hairline-strong: rgba(31, 27, 22, 0.28);
   --dim-ink: rgba(31, 27, 22, 0.42);     /* dimension lines */
   --panel: #EDE5D6;                      /* presentation board surface (light-beige + a touch of dark-beige) */
-  --paper: #FFFFFF;
+  --paper: #F4EFE6;                      /* the ads' own cream: nothing white shows while an ad loads */
 
   --font-display: 'Playfair Display', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
   --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
