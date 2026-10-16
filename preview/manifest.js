@@ -16,7 +16,7 @@ window.CAMPAIGN = {
     {
       "label": "Generic V1 HTML5 · all sizes",
       "path": "deliverables/BIMC-AU-Display-GenericV1-v10-HTML5.zip",
-      "kb": 414.5
+      "kb": 414.4
     },
     {
       "label": "Generic V2 HTML5 · all sizes",
@@ -28,30 +28,6 @@ window.CAMPAIGN = {
       "path": "deliverables/BIMC-AU-Display-Generic-v10-ALL.zip",
       "kb": 1644.9
     }
-  ],
-  "changes": [
-    "v10 · Generic V2 160×600: the “Plan your treatment” button is narrower (151 → 114 px), with margins like Generic V1’s button.",
-    "v9 · No white anywhere in the ads: the background behind the photo and copy is a gradient from dark beige to light beige, and each photo fades into it.",
-    "v9 · 320×50: headline and button are centred in their panel; the button is narrower.",
-    "v9 · Generic V1 160×600 option B removed; the gliding version (every frame) is the one.",
-    "v9 · Preview page background is white, so the ads' beige reads true.",
-    "v8 · Generic V1 160×600 now comes in two options. Option A (in Generic V1): frame 3 also glides, from the patient at the desk to the receptionist, so every frame shows everyone. Option B (new): frame 2 uses the new tall bedside photo, with the doctor and the patient together in one still.",
-    "v7 · 160×600, Generic V1: frame 1 glides left to right across the whole team, and frame 2 glides from the doctor to the patient, so both people are seen.",
-    "v6 · Generic V1 frame 2: new photo of the doctor going over the follow-up with the patient at her bedside, framed per size so faces stay whole (160×600 is too narrow for both people, so it shows the doctor with the tablet).",
-    "v6 · Generic V1 frame 3 copy now reads “Features and inclusions vary by procedure and package.”",
-    "v6 · ACHS International and Healthcare Asia Awards lockup 10% smaller in every size, for more breathing room under the CosMedic logo.",
-    "v6 · Generic V1 frame 3, 160×600: the photo is reframed so the receptionist is centred and no partly cut head shows at the edge.",
-    "v6 · Smoother start and loop: the ad fades in from its cream background instead of popping in, nothing white shows while it loads, and the light streak on the button no longer stays behind after the shine.",
-    "v5 · ACHS International and the Healthcare Asia Awards logo are now the same size: their lettering is matched and sits on one line, in one fixed lockup used in every ad.",
-    "v4 · Accreditation logos replaced with the client's files: ACHS International and Healthcare Asia Awards 2026, side by side and large enough to read.",
-    "v4 · Each ad is now one self-contained index.html (photos, logos and fonts inside, under 150 KB), so it renders correctly even when opened straight from the zip. All images are built at 2× for sharp retina display.",
-    "v3 · The CosMedic logo is in the official brown (#533E27); the full logo appears in every size, including 320×50.",
-    "v3 · 300×250: the photo blends into the copy with the same soft gradient as the other sizes.",
-    "Both logos appear on every frame of every size and stay on screen for the whole animation.",
-    "Generic V1: frame 1 keeps the team; frames 2 and 3 show people — the doctor at the bedside for “Recovery · Follow-up”, the front desk welcoming a patient for the package line.",
-    "Generic V2: frame 1 keeps the lobby; frame 2 shows BIMC Nusa Dua; frame 3 the reception lobby. The photo of a surgeon marking a patient’s face is removed.",
-    "No procedure on a patient and no before/after anywhere; every photo is framed per size so faces stay whole.",
-    "Statics of every frame and size for News Corp, named BIMC-AU-<channel>-<asset>-<size>-v<n>."
   ],
   "previewClickUrl": "https://cosmedic.bimcbali.com/en",
   "versions": [
@@ -121,10 +97,10 @@ window.CAMPAIGN = {
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v10-F2.jpg",
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-300x250-v10-F3.jpg"
           ],
-          "initialKB": 78.0,
-          "totalKB": 78.0,
+          "initialKB": 77.9,
+          "totalKB": 77.9,
           "zipKB": 51.8,
-          "htmlKB": 78.0,
+          "htmlKB": 77.9,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -144,7 +120,7 @@ window.CAMPAIGN = {
           ],
           "initialKB": 71.0,
           "totalKB": 71.0,
-          "zipKB": 46.9,
+          "zipKB": 46.8,
           "htmlKB": 71.0,
           "files": 1,
           "durationS": 13.8,
@@ -163,10 +139,10 @@ window.CAMPAIGN = {
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v10-F2.jpg",
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v10-F3.jpg"
           ],
-          "initialKB": 31.6,
-          "totalKB": 31.6,
-          "zipKB": 17.0,
-          "htmlKB": 31.6,
+          "initialKB": 31.5,
+          "totalKB": 31.5,
+          "zipKB": 16.9,
+          "htmlKB": 31.5,
           "files": 1,
           "durationS": 13.8,
           "loops": 2

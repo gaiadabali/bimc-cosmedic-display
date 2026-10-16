@@ -235,37 +235,14 @@
   function initOverview() {
     fillMasthead();
 
-    /* Hero */
-    var eyebrow = $('eyebrow');
-    eyebrow.textContent = C.client + ' · ' + C.platform;
-    var words = String(C.campaign).split(/\s+/);
-    var title = $('title');
-    title.textContent = '';
-    var accentAt = words.length >= 3 ? 1 : words.length - 1;
-    words.forEach(function (w, i) {
-      if (i > 0) title.appendChild(document.createTextNode(' '));
-      title.appendChild(i === accentAt && words.length > 1 ? h('em', { text: w }) : document.createTextNode(w));
-    });
-
     var versions = C.versions.map(function (v) { return { v: v, ads: orderedAds(v) }; });
     var allSizes = [];
-    var total = 0, heaviest = 0;
     versions.forEach(function (x) {
       x.ads.forEach(function (a) {
-        total++;
         if (allSizes.indexOf(a.size) === -1) allSizes.push(a.size);
-        if (a.initialKB > heaviest) heaviest = a.initialKB;
       });
     });
     allSizes.sort(function (a, b) { return sizeRank(a) - sizeRank(b); });
-
-    var ch = $('changes');
-    if (ch && C.changes && C.changes.length) {
-      ch.appendChild(h('p', { class: 'mono changes__label', text: 'What changed' }));
-      var ol = h('ol', { class: 'changes__list' });
-      C.changes.forEach(function (c) { ol.appendChild(h('li', { text: c })); });
-      ch.appendChild(ol);
-    }
 
     var dl = $('downloads');
     if (dl && C.packages && C.packages.length) {
@@ -276,12 +253,6 @@
       });
       dl.appendChild(row);
     }
-
-    var stats = $('stats');
-    [['Versions', String(C.versions.length)], ['Ad units', String(total)], ['Sizes', String(allSizes.length)], ['Heaviest initial load', kb(heaviest)]]
-      .forEach(function (s) {
-        stats.appendChild(h('div', { class: 'stat' }, [h('dt', { class: 'mono', text: s[0] }), h('dd', { text: s[1] })]));
-      });
 
     /* State from URL */
     var state = { v: 'all', s: 'all' };
@@ -463,7 +434,7 @@
         sec.el.hidden = n === 0;
       });
       empty.hidden = visible !== 0;
-      $('count').textContent = visible + ' of ' + total + ' shown';
+      $('count').textContent = visible + ' of ' + cards.length + ' shown';
       fitAll();
     }
 
