@@ -4,7 +4,7 @@ window.CAMPAIGN = {
   "campaign": "Generic Display Ads",
   "platform": "The Trade Desk · HTML5",
   "updated": "2026-10-16",
-  "revision": "v6 · revision brief 1 Oct + review 9 Oct 2026",
+  "revision": "v6 · revision brief 1 Oct, review 9 Oct, update 16 Oct 2026",
   "clickTag": "clickTAG",
   "logo": "preview/logo.svg",
   "packages": [
@@ -26,7 +26,7 @@ window.CAMPAIGN = {
     {
       "label": "Everything",
       "path": "deliverables/BIMC-AU-Display-Generic-v6-ALL.zip",
-      "kb": 1601.2
+      "kb": 1601.1
     }
   ],
   "changes": [
@@ -135,10 +135,10 @@ window.CAMPAIGN = {
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v6-F2.jpg",
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-728x90-v6-F3.jpg"
           ],
-          "initialKB": 71.0,
-          "totalKB": 71.0,
+          "initialKB": 70.9,
+          "totalKB": 70.9,
           "zipKB": 46.9,
-          "htmlKB": 71.0,
+          "htmlKB": 70.9,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -156,10 +156,10 @@ window.CAMPAIGN = {
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v6-F2.jpg",
             "deliverables/statics/GEN-V1/BIMC-AU-Display-GenericV1-320x50-v6-F3.jpg"
           ],
-          "initialKB": 31.2,
-          "totalKB": 31.2,
+          "initialKB": 31.1,
+          "totalKB": 31.1,
           "zipKB": 16.8,
-          "htmlKB": 31.2,
+          "htmlKB": 31.1,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
@@ -253,10 +253,10 @@ window.CAMPAIGN = {
             "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v6-F2.jpg",
             "deliverables/statics/GEN-V2/BIMC-AU-Display-GenericV2-728x90-v6-F3.jpg"
           ],
-          "initialKB": 81.7,
-          "totalKB": 81.7,
+          "initialKB": 81.6,
+          "totalKB": 81.6,
           "zipKB": 55.1,
-          "htmlKB": 81.7,
+          "htmlKB": 81.6,
           "files": 1,
           "durationS": 13.8,
           "loops": 2
